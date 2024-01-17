@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Students List</title>
+</head>
+<body>
+{% for student in students %}
+    <p>{{ student.first_name }} {{ student.last_name }}</p>
+{% endfor %}
+</body>
+</html>
